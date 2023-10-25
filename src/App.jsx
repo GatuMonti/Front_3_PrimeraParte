@@ -1,17 +1,12 @@
-import ClassComponent from "./Components/ClassComponent";
-import FunComponent from "./Components/FunComponent";
 import "./App.css";
-import Estudiante from "./Components/Estudiante";
+import Lista from "./Components/Clase5_MesaDeTrabajo/Lista";
 
-function App() {
+
+
+
+function App() {    
     return (
-        <>
-            <ClassComponent />
-            <FunComponent />
-            <Estudiante nombre="Gatu" localidad="Capital"/>
-            <Estudiante nombre="Joha" localidad="Juan Dias"/>
-            <Estudiante nombre="Bauti" localidad="Frias"/>
-        </>  
+        <Lista/>
     );
 }
 export default App;

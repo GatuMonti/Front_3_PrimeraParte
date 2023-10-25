@@ -1,0 +1,23 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: gray;
+    padding: 5px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    height: 90vh;
+    
+}
+
+.botones{
+    margin: 5px;    
+}
+
+.tareas{
+    list-style-type: none;
+    text-align: center;    
+    padding: 0;
+    width: 100%;
+
+}
