@@ -1,0 +1,21 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.label{
+    display: inline-block;
+    width: 100px; /* Ajusta el ancho según sea necesario */
+    text-align: left;
+    margin-top: 5px;
+}
+
+.button{
+    margin-top: 20px;
+    background-color:dimgrey;
+}
+
